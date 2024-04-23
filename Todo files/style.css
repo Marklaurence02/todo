@@ -1,0 +1,146 @@
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color:  #6B8E23;
+    background: #FFF8DC;
+    border: 2px solid #6B8E23;
+    border-radius: 20px;
+}
+form {
+    width: 50%; 
+    margin: 30px auto; 
+    border-radius: 5px; 
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid #6B8E23;
+}
+form2 {
+    width: 200px; 
+    margin: 30px auto; 
+    border-radius: 5px; 
+    display: flex;
+    padding: 10px;
+    background: #FFF8DC;
+    border: 1px solid #6B8E23;
+}
+form p {
+    color: red;
+    margin: 0px;
+}
+.task_input {
+    width: 50%;
+    height: 15px; 
+    padding: 10px;
+    border: 2px solid #6B8E23;
+}
+.add_btn {
+    height: 39px;
+    background: #FFF8DC;
+    color:  #6B8E23;
+    border: 2px solid #6B8E23;
+    border-radius: 5px; 
+    padding: 5px 20px;
+}
+
+table {
+width: 50%;
+margin: 30px auto;
+border-collapse: collapse;
+text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+   
+}
+
+th {
+    font-size: 19px;
+    color: #6B8E23;
+    text-align: center;
+    
+}
+.upload_input {
+    width: 500%;
+    height: 15px;
+    padding: 10px;
+}
+th, td{
+    border: none;
+height: 30px;
+padding: 2px;
+
+}
+
+tr:hover {
+    background: #E9E9E9;
+}
+
+.task {
+    text-align: left;
+    text-align: center;
+}
+
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: white;
+    background: #a52a2a;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+    .btn_primary {
+
+        height: 39px;
+        background: #dedcff;
+        color:  #2300eb;
+        border: 2px solid #1b04ec;
+        border-radius: 5px; 
+        padding: 5px 20px;
+}
+.completed {
+    color: green;
+}
+
+.incomplete {
+    color: red;
+}
+
+.success-message{
+    font-size: xxx-large;
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* CSS for error message */
+.error-message {
+    font-size: xxx-large;
+    color: white;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.text {
+        display: flex;
+        align-content: flex-end;
+        justify-content: space-around;
+        background:#FFF8DC;
+        border-radius: 50%;
+}
+.colorbg{
+    background-color: #9ce710;
+}
